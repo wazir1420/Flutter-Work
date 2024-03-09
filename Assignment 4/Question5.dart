@@ -19,6 +19,8 @@ void main() {
     65,
     32
   ];
+  // For maximum value
   print(value.reduce((curr, next) => curr > next ? curr : next));
+  // For minimum value
   print(value.reduce((curr, next) => curr < next ? curr : next));
 }
